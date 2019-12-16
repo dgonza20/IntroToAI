@@ -40,8 +40,8 @@ void Board::HillClimbingAlg(){
 		// Check to see if the first board = goalstate
 		if(currentH == 0){
 			solved = true;
-            Won();
-            break;
+            		Won();
+            		break;
 		}
 		
 		// While there are hueristics
